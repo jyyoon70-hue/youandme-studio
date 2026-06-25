@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>You &amp; Me STUDIO — AI 크리에이티브 스튜디오</title>
+  <meta name="description" content="전문 분야 경험과 AI 기술을 결합한 바이브코딩 스튜디오. AI 실무 교육, 앱 개발, 영상 제작, AI 드라마 매니지먼트." />
+
+  <!-- Pretendard 웹폰트 -->
+  <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===================== 헤더 ===================== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo">
+        <span class="logo__mark">🎬</span>
+        <span>You &amp; Me <span class="logo__sub">STUDIO</span></span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#studio">소개</a></li>
+          <li><a class="nav__link" href="#lecture">강의</a></li>
+          <li><a class="nav__link" href="#vibe">바이브코딩</a></li>
+          <li><a class="nav__link" href="#assistants">자료실</a></li>
+          <li><a class="nav__link" href="#contact">문의하기</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <button class="btn-login" id="open-login">로그인</button>
+        <button class="hamburger" id="hamburger" aria-label="메뉴 열기"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== 1. 히어로 ===================== -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <span class="hero__badge reveal">✨ 전문가 × AI 바이브코딩 스튜디오</span>
+        <h1 class="hero__title reveal">
+          진짜 전문가가 AI를 만나면,<br />
+          <span class="accent">불가능은 사라진다</span>
+        </h1>
+        <p class="hero__desc reveal">
+          현장에서 쌓은 전문 분야 경험과 최신 AI 기술을 결합했습니다.
+          교육부터 앱 개발, 영상 제작까지 — 아이디어를 실제 결과물로 만드는
+          <strong>바이브코딩</strong> 스튜디오입니다.
+        </p>
+        <div class="hero__actions reveal">
+          <a href="#lecture" class="btn btn--primary btn--lg">강의 신청하기</a>
+          <a href="#studio" class="btn btn--outline btn--lg">스튜디오 소개</a>
+        </div>
+
+        <div class="hero__stats reveal">
+          <div class="hero__stat"><strong>20+</strong><span>바이브코딩 제작 앱</span></div>
+          <div class="hero__stat"><strong>500+</strong><span>교육 수강생</span></div>
+          <div class="hero__stat"><strong>30+</strong><span>맞춤형 AI 어시스턴트</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 2. 스튜디오 소개 ===================== -->
+    <section class="section" id="studio">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-eyebrow">01 — STUDIO</span>
+          <h2 class="section-title">전문성과 AI가 결합된<br />네 가지 핵심 서비스</h2>
+          <p class="section-desc">각 분야의 전문가가 AI를 도구로 활용해 실질적인 결과를 만들어냅니다.</p>
+        </div>
+
+        <div class="grid grid--4">
+          <div class="card reveal">
+            <div class="card__icon">🎓</div>
+            <h3 class="card__title">AI 실무 교육</h3>
+            <p class="card__desc">기초부터 실전까지, 현업에 바로 적용하는 맞춤형 AI 교육 프로그램.</p>
+          </div>
+          <div class="card reveal">
+            <div class="card__icon">⚡</div>
+            <h3 class="card__title">바이브코딩 (앱 개발)</h3>
+            <p class="card__desc">기획부터 배포까지, AI로 빠르게 만드는 웹·앱 서비스 개발.</p>
+          </div>
+          <div class="card reveal">
+            <div class="card__icon">🎥</div>
+            <h3 class="card__title">기업 영상 제작</h3>
+            <p class="card__desc">홍보·교육·브랜딩 영상을 AI 워크플로우로 효율적으로 제작.</p>
+          </div>
+          <div class="card reveal">
+            <div class="card__icon">🎭</div>
+            <h3 class="card__title">AI 드라마 / 배우 매니지먼트</h3>
+            <p class="card__desc">AI 배우 기획과 가상 콘텐츠 제작, 디지털 IP 매니지먼트.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 3. 강의 ===================== -->
+    <section class="section section--soft" id="lecture">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-eyebrow">02 — LECTURE</span>
+          <h2 class="section-title">목적에 맞는<br />여섯 가지 강의 과정</h2>
+          <p class="section-desc">입문자부터 경영진까지, 수준과 목표에 맞춰 설계된 커리큘럼.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <div class="card reveal">
+            <p class="card__num">LECTURE 01</p>
+            <div class="card__icon">🏢</div>
+            <h3 class="card__title">기업 임직원 대상 AI 기초</h3>
+            <p class="card__desc">실무에 바로 쓰는 생성형 AI 활용의 기본기를 다집니다.</p>
+          </div>
+          <div class="card reveal">
+            <p class="card__num">LECTURE 02</p>
+            <div class="card__icon">🎨</div>
+            <h3 class="card__title">AI 콘텐츠 제작</h3>
+            <p class="card__desc">이미지·영상·음악까지, 멀티미디어 콘텐츠 생성 실습.</p>
+          </div>
+          <div class="card reveal">
+            <p class="card__num">LECTURE 03</p>
+            <div class="card__icon">📊</div>
+            <h3 class="card__title">대표 / 임원 전략 세션</h3>
+            <p class="card__desc">경영 관점에서 보는 AI 도입 전략과 의사결정 인사이트.</p>
+          </div>
+          <div class="card reveal">
+            <p class="card__num">LECTURE 04</p>
+            <div class="card__icon">🚀</div>
+            <h3 class="card__title">4주 집중 마스터 클래스</h3>
+            <p class="card__desc">한 달 동안 프로젝트 단위로 결과물을 완성하는 심화 과정.</p>
+          </div>
+          <div class="card reveal">
+            <p class="card__num">LECTURE 05</p>
+            <div class="card__icon">📱</div>
+            <h3 class="card__title">스마트폰 크리에이터 워크숍</h3>
+            <p class="card__desc">스마트폰 하나로 촬영·편집·발행까지 끝내는 실전 워크숍.</p>
+          </div>
+          <div class="card reveal">
+            <p class="card__num">LECTURE 06</p>
+            <div class="card__icon">🤝</div>
+            <h3 class="card__title">1:1 맞춤 코칭</h3>
+            <p class="card__desc">개인의 목표와 상황에 맞춘 일대일 밀착 코칭 프로그램.</p>
+          </div>
+        </div>
+
+        <!-- 강의 일정 -->
+        <div class="schedule reveal">
+          <div class="schedule__row schedule__row--head">
+            <span class="schedule__date">일정</span>
+            <span class="schedule__name">강의명</span>
+            <span class="schedule__tag">상태</span>
+          </div>
+          <div class="schedule__row">
+            <span class="schedule__date">2026.07.05</span>
+            <span class="schedule__name">기업 임직원 대상 AI 기초 (3기)</span>
+            <span class="schedule__tag">모집중</span>
+          </div>
+          <div class="schedule__row">
+            <span class="schedule__date">2026.07.12</span>
+            <span class="schedule__name">AI 콘텐츠 제작 — 이미지 &amp; 영상</span>
+            <span class="schedule__tag">모집중</span>
+          </div>
+          <div class="schedule__row">
+            <span class="schedule__date">2026.07.20</span>
+            <span class="schedule__name">스마트폰 크리에이터 워크숍 (주말반)</span>
+            <span class="schedule__tag">마감임박</span>
+          </div>
+          <div class="schedule__row">
+            <span class="schedule__date">2026.08.03</span>
+            <span class="schedule__name">4주 집중 마스터 클래스 (5기)</span>
+            <span class="schedule__tag schedule__tag--gray">대기</span>
+          </div>
+          <div class="schedule__row">
+            <span class="schedule__date">2026.08.16</span>
+            <span class="schedule__name">대표 / 임원 전략 세션</span>
+            <span class="schedule__tag schedule__tag--gray">대기</span>
+          </div>
+          <div class="schedule__row">
+            <span class="schedule__date">2026.08.24</span>
+            <span class="schedule__name">1:1 맞춤 코칭 (상시 모집)</span>
+            <span class="schedule__tag">모집중</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 4. 바이브코딩 ===================== -->
+    <section class="section" id="vibe">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-eyebrow">03 — VIBE CODING</span>
+          <h2 class="section-title">아이디어를 앱으로,<br />바이브코딩 제작 사례</h2>
+          <p class="section-desc">현장의 문제를 해결하기 위해 직접 만든 20여 개의 실전 앱 중 일부입니다.</p>
+        </div>
+
+        <div class="grid grid--4">
+          <div class="card app-card reveal"><div class="card__icon">🏗️</div><h3 class="card__title">건축 설계 플랫폼</h3><p class="card__desc">도면 검토와 설계 협업을 한곳에서.</p></div>
+          <div class="card app-card reveal"><div class="card__icon">🦺</div><h3 class="card__title">현장 안전 체크리스트</h3><p class="card__desc">건설 현장 안전 점검을 디지털화.</p></div>
+          <div class="card app-card reveal"><div class="card__icon">📷</div><h3 class="card__title">사진 분석 도구</h3><p class="card__desc">AI로 이미지를 자동 분류·태깅.</p></div>
+          <div class="card app-card reveal"><div class="card__icon">📈</div><h3 class="card__title">비즈니스 대시보드</h3><p class="card__desc">핵심 지표를 실시간으로 시각화.</p></div>
+          <div class="card app-card reveal"><div class="card__icon">🧾</div><h3 class="card__title">세금계산서 도우미</h3><p class="card__desc">반복 서류 작업을 자동화.</p></div>
+          <div class="card app-card reveal"><div class="card__icon">🩺</div><h3 class="card__title">건강 기록 트래커</h3><p class="card__desc">일상 건강 데이터를 기록·관리.</p></div>
+          <div class="card app-card reveal"><div class="card__icon">🍽️</div><h3 class="card__title">매장 예약 관리</h3><p class="card__desc">예약·노쇼를 한눈에 관리.</p></div>
+          <div class="card app-card reveal"><div class="card__icon">📚</div><h3 class="card__title">학습 진도 관리</h3><p class="card__desc">학생별 학습 현황을 추적.</p></div>
+          <div class="card app-card reveal"><div class="card__icon">🚚</div><h3 class="card__title">배송 경로 최적화</h3><p class="card__desc">AI 기반 최적 동선 추천.</p></div>
+          <div class="card app-card reveal"><div class="card__icon">💬</div><h3 class="card__title">고객 응대 챗봇</h3><p class="card__desc">자주 묻는 질문 자동 응답.</p></div>
+          <div class="card app-card reveal"><div class="card__icon">🎫</div><h3 class="card__title">행사 참가 신청</h3><p class="card__desc">신청·체크인을 모바일로.</p></div>
+          <div class="card app-card reveal"><div class="card__icon">🧮</div><h3 class="card__title">견적 자동 계산기</h3><p class="card__desc">조건 입력만으로 즉시 견적.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 5. GPTs & Gems ===================== -->
+    <section class="section section--soft" id="assistants">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-eyebrow">04 — GPTs &amp; GEMS</span>
+          <h2 class="section-title">바로 쓰는<br />맞춤형 AI 어시스턴트</h2>
+          <p class="section-desc">ChatGPT와 Gemini 기반으로 제작한 업무용 어시스턴트 모음입니다.</p>
+        </div>
+
+        <div class="grid grid--4">
+          <div class="card assistant-card reveal">
+            <div class="assistant-card__top"><span class="assistant-card__emoji">✍️</span><span class="badge badge--gpt">ChatGPT</span></div>
+            <h3 class="card__title">카피라이터 GPT</h3>
+            <p class="card__desc">광고·SNS 카피를 톤에 맞게 생성.</p>
+            <a href="#" class="assistant-card__link">바로가기 →</a>
+          </div>
+          <div class="card assistant-card reveal">
+            <div class="assistant-card__top"><span class="assistant-card__emoji">📑</span><span class="badge badge--gpt">ChatGPT</span></div>
+            <h3 class="card__title">문서 요약 GPT</h3>
+            <p class="card__desc">긴 보고서를 핵심만 정리.</p>
+            <a href="#" class="assistant-card__link">바로가기 →</a>
+          </div>
+          <div class="card assistant-card reveal">
+            <div class="assistant-card__top"><span class="assistant-card__emoji">💡</span><span class="badge badge--gem">Gemini</span></div>
+            <h3 class="card__title">기획 아이디어 Gem</h3>
+            <p class="card__desc">신규 기획 아이디어를 발상.</p>
+            <a href="#" class="assistant-card__link">바로가기 →</a>
+          </div>
+          <div class="card assistant-card reveal">
+            <div class="assistant-card__top"><span class="assistant-card__emoji">📧</span><span class="badge badge--gpt">ChatGPT</span></div>
+            <h3 class="card__title">비즈니스 이메일 GPT</h3>
+            <p class="card__desc">상황별 정중한 이메일 작성.</p>
+            <a href="#" class="assistant-card__link">바로가기 →</a>
+          </div>
+          <div class="card assistant-card reveal">
+            <div class="assistant-card__top"><span class="assistant-card__emoji">📊</span><span class="badge badge--gem">Gemini</span></div>
+            <h3 class="card__title">데이터 분석 Gem</h3>
+            <p class="card__desc">표 데이터를 해석하고 인사이트 도출.</p>
+            <a href="#" class="assistant-card__link">바로가기 →</a>
+          </div>
+          <div class="card assistant-card reveal">
+            <div class="assistant-card__top"><span class="assistant-card__emoji">🎯</span><span class="badge badge--gpt">ChatGPT</span></div>
+            <h3 class="card__title">마케팅 전략 GPT</h3>
+            <p class="card__desc">타깃별 마케팅 플랜 제안.</p>
+            <a href="#" class="assistant-card__link">바로가기 →</a>
+          </div>
+          <div class="card assistant-card reveal">
+            <div class="assistant-card__top"><span class="assistant-card__emoji">🌐</span><span class="badge badge--gem">Gemini</span></div>
+            <h3 class="card__title">번역 &amp; 현지화 Gem</h3>
+            <p class="card__desc">자연스러운 다국어 번역.</p>
+            <a href="#" class="assistant-card__link">바로가기 →</a>
+          </div>
+          <div class="card assistant-card reveal">
+            <div class="assistant-card__top"><span class="assistant-card__emoji">🧑‍💻</span><span class="badge badge--gpt">ChatGPT</span></div>
+            <h3 class="card__title">코드 리뷰 GPT</h3>
+            <p class="card__desc">코드를 검토하고 개선점 제안.</p>
+            <a href="#" class="assistant-card__link">바로가기 →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 6. 구독 안내 ===================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal" style="text-align:center; margin-left:auto; margin-right:auto;">
+          <span class="section-eyebrow">MEMBERSHIP</span>
+          <h2 class="section-title">멤버십 구독 안내</h2>
+        </div>
+        <div class="pricing reveal">
+          <span class="pricing__label">MONTHLY PLAN</span>
+          <div class="pricing__price">₩10,000<span> / 월</span></div>
+          <ul class="pricing__list">
+            <li>제작 앱 소스코드 업데이트 제공</li>
+            <li>모든 맞춤형 GPT / Gem 이용</li>
+            <li>구독자 독점 콘텐츠 &amp; 튜토리얼</li>
+            <li>신규 강의 우선 신청 혜택</li>
+          </ul>
+          <a href="#contact" class="btn btn--point btn--lg btn--block">구독하기</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 7. 문의하기 ===================== -->
+    <section class="section section--soft" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-eyebrow">CONTACT</span>
+          <h2 class="section-title">무엇이든 문의하세요</h2>
+          <p class="section-desc">강의, 협업, 앱 개발 의뢰 — 편하게 남겨주시면 빠르게 답변드립니다.</p>
+        </div>
+
+        <div class="contact__grid">
+          <div class="contact__info reveal">
+            <div class="contact__info-item">
+              <span class="contact__info-emoji">📍</span>
+              <div><div class="contact__info-label">사무실</div><div class="contact__info-value">경기도 광명시</div></div>
+            </div>
+            <div class="contact__info-item">
+              <span class="contact__info-emoji">✉️</span>
+              <div><div class="contact__info-label">이메일</div><div class="contact__info-value">hello@youandme.studio</div></div>
+            </div>
+            <div class="contact__info-item">
+              <span class="contact__info-emoji">💬</span>
+              <div><div class="contact__info-label">카카오톡 채널</div><div class="contact__info-value">@youandmestudio</div></div>
+            </div>
+            <div class="contact__info-item">
+              <span class="contact__info-emoji">🕘</span>
+              <div><div class="contact__info-label">운영 시간</div><div class="contact__info-value">평일 10:00 – 18:00</div></div>
+            </div>
+          </div>
+
+          <form class="form reveal" id="contact-form">
+            <div class="form__row">
+              <div class="field"><label for="name">이름</label><input type="text" id="name" name="name" placeholder="홍길동" required /></div>
+              <div class="field"><label for="phone">연락처</label><input type="tel" id="phone" name="phone" placeholder="010-0000-0000" required /></div>
+            </div>
+            <div class="field"><label for="company">회사명</label><input type="text" id="company" name="company" placeholder="(선택) 소속을 입력하세요" /></div>
+            <div class="field">
+              <label for="type">문의 유형</label>
+              <select id="type" name="type" required>
+                <option value="">선택해주세요</option>
+                <option>강의 신청 / 문의</option>
+                <option>앱 개발 의뢰 (바이브코딩)</option>
+                <option>영상 제작 의뢰</option>
+                <option>기업 교육 / 출강</option>
+                <option>멤버십 구독</option>
+                <option>기타</option>
+              </select>
+            </div>
+            <div class="field"><label for="message">메시지</label><textarea id="message" name="message" placeholder="문의 내용을 자유롭게 적어주세요." required></textarea></div>
+            <button type="submit" class="btn btn--primary btn--lg btn--block">보내기</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== 9. 푸터 ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <div class="logo"><span class="logo__mark">🎬</span><span>You &amp; Me STUDIO</span></div>
+          <p>전문 분야 경험과 AI 기술을 결합한 바이브코딩 스튜디오. 아이디어를 실제 결과물로 만듭니다.</p>
+        </div>
+        <div class="footer__col">
+          <h4>서비스</h4>
+          <ul>
+            <li><a href="#studio">스튜디오 소개</a></li>
+            <li><a href="#lecture">강의 과정</a></li>
+            <li><a href="#vibe">바이브코딩</a></li>
+            <li><a href="#assistants">GPTs &amp; Gems</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>바로가기</h4>
+          <ul>
+            <li><a href="#contact">문의하기</a></li>
+            <li><a href="#">멤버십 구독</a></li>
+            <li><a href="#">카카오톡 채널</a></li>
+            <li><a href="#">자료실</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 You &amp; Me STUDIO. All rights reserved.</span>
+        <span>경기도 광명시 · hello@youandme.studio</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== 8. 로그인 모달 ===================== -->
+  <div class="modal" id="login-modal" aria-hidden="true">
+    <div class="modal__overlay" data-close></div>
+    <div class="modal__box" role="dialog" aria-modal="true" aria-labelledby="login-title">
+      <button class="modal__close" id="close-login" aria-label="닫기" data-close>✕</button>
+      <h3 class="modal__title" id="login-title">로그인</h3>
+      <p class="modal__sub">You &amp; Me STUDIO에 오신 것을 환영합니다 👋</p>
+
+      <form id="login-form">
+        <div class="field"><label for="login-email">이메일</label><input type="email" id="login-email" placeholder="you@example.com" required /></div>
+        <div class="field"><label for="login-pw">비밀번호</label><input type="password" id="login-pw" placeholder="••••••••" required /></div>
+        <button type="submit" class="btn btn--primary btn--block">이메일로 로그인</button>
+      </form>
+
+      <div class="divider">또는</div>
+
+      <div class="social-btns">
+        <button class="social-btn social-btn--google" data-social="구글"><span class="social-btn__ico">🔵</span> 구글로 계속하기</button>
+        <button class="social-btn social-btn--kakao" data-social="카카오"><span class="social-btn__ico">💬</span> 카카오로 계속하기</button>
+        <button class="social-btn social-btn--naver" data-social="네이버"><span class="social-btn__ico">Ⓝ</span> 네이버로 계속하기</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
